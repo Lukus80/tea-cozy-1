@@ -17,12 +17,14 @@ header {
   height: 69px;
   width: 100%;
   position: fixed;
+  background: black;
   top: 0px;
   border-bottom: 1px solid seashell;
   justify-content: flex-end;
   align-items: center;
   padding-left: 10px;
   padding-right: 15px;
+  z-index: 5;
 }
 
 
@@ -65,3 +67,24 @@ nav a {
 }
 
 #locations
+
+/* main container */
+
+.main-container {
+  display: flex;
+  position: relative;
+  top: 69px;
+  height: 1500px;
+  width: 100%;
+  justify-content: center;
+}
+
+div #mission {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
