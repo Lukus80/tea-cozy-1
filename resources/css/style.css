@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 div {
@@ -87,4 +88,9 @@ div #mission {
   align-items: center;
   justify-content: center;
   margin: 0px auto;
+}
+
+div.text-block {
+  background-color: black;
+  width:1200px
 }
