@@ -2,11 +2,66 @@ body {
   font-family: helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
-  background color: black;
+  background-color: black;
   opacity: 0.9;
 }
 
+div {
+  border: 1px solid grey;
+}
+
+/* header */
+
 header {
   display: flex;
+  height: 69px;
+  width: 100%;
   position: fixed;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 15px;
 }
+
+
+header div {
+  display: flex;
+  flex-grow: 1;
+  height: 69px;
+  align-items: center;
+}
+
+div.logo img {
+  display: block;
+  height: 50px;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav span {
+  padding-left: 10px;
+  margin-right: 30px;
+}
+
+nav a {
+  color: seashell;
+  border-color: seashell;
+}
+
+/* nav ids */
+
+#mission {
+
+}
+
+#teas {
+
+}
+
+#locations
