@@ -6,12 +6,19 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+h2,
+h4 {
+  padding: 10px;
+  margin: 0px;
+}
+
 /*
 div {
   border: 1px solid grey;
 } */
 
-/* header */
+/* header nav */
 
 header {
   display: flex;
@@ -27,7 +34,6 @@ header {
   padding-right: 15px;
   z-index: 5;
 }
-
 
 header div {
   display: flex;
@@ -75,11 +81,13 @@ nav a {
 .main-container {
   display: flex;
   position: relative;
-  top: 96px;
   height: 1500px;
   width: 100%;
   justify-content: center;
+
 }
+
+/* core divs */
 
 div #mission {
   display: flex;
@@ -89,6 +97,7 @@ div #mission {
   align-items: center;
   justify-content: center;
   margin: 0px auto;
+  padding-top: 70px;
 }
 
 div #teas {
@@ -96,7 +105,8 @@ div #teas {
   height: 700px;
   width: 1200px;
   justify-content: center;
-  margin: 30px auto;
+  margin: 0px auto;
+  padding-top: 70px;
 }
 
 div #locations {
@@ -110,9 +120,12 @@ div #locations {
   padding-top: 70px;
 }
 
-div.text-block {
+/* items & containers */
+
+.text-block {
   background-color: black;
-  width:1200px
+  text-align: center;
+  flex-grow: 1;
 }
 
 .product-container {
@@ -156,4 +169,11 @@ div.text-block {
 
 #locations h2 {
   margin: 0px;
+}
+
+/* footer */
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
