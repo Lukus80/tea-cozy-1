@@ -6,10 +6,10 @@ body {
   opacity: 0.9;
   text-align: center;
 }
-
+/*
 div {
   border: 1px solid grey;
-}
+} */
 
 /* header */
 
@@ -65,6 +65,7 @@ nav a {
 
 #teas {
 
+
 }
 
 #locations
@@ -74,7 +75,7 @@ nav a {
 .main-container {
   display: flex;
   position: relative;
-  top: 69px;
+  top: 96px;
   height: 1500px;
   width: 100%;
   justify-content: center;
@@ -95,18 +96,18 @@ div #teas {
   height: 700px;
   width: 1200px;
   justify-content: center;
-  margin: 0px auto;
-  padding-top: 70px;
+  margin: 30px auto;
 }
 
 div #locations {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   margin: 0px auto;
+  padding-top: 70px;
 }
 
 div.text-block {
@@ -133,4 +134,26 @@ div.text-block {
   flex-wrap: wrap;
   margin-bottom: 10px;
   padding: 15px;
+}
+
+.locations {
+  display: flex;
+  width: 1200px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  margin: 0px 20px;
+}
+
+#locations h2 {
+  margin: 0px;
 }
