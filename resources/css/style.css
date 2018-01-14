@@ -90,7 +90,37 @@ div #mission {
   margin: 0px auto;
 }
 
+div #teas {
+  display: block;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  margin: 0px auto;
+}
+
 div.text-block {
   background-color: black;
   width:1200px
+}
+
+.product-container {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product img{
+  display: block;
+  width: 300px;
+  height: 200px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
